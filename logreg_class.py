@@ -33,7 +33,7 @@ class logreg_class:
         return result
 
     # summary of model
-    # print result.summary()
+    
 
     # look at the confidence interval of each coeffecient
     # print result.conf_int()
@@ -50,6 +50,4 @@ class logreg_class:
         #print 'About to predict the result for the '+str(input_list)
         return result.predict(output)
 
-    '''r=initialize()
-    predicted_value predict(r,[0,0,0])'''
-
+    
